@@ -12,7 +12,6 @@
 		53069F72205918D30058BDB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53069F55205918D30058BDB7 /* LaunchScreen.storyboard */; };
 		53069F73205918D30058BDB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53069F57205918D30058BDB7 /* Main.storyboard */; };
 		53069F74205918D30058BDB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53069F59205918D30058BDB7 /* AppDelegate.swift */; };
-		53069F75205918D30058BDB7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53069F5A205918D30058BDB7 /* Info.plist */; };
 		53069F8B20591B670058BDB7 /* Countries.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 53069F7A20591B670058BDB7 /* Countries.bundle */; };
 		53069F8C20591B670058BDB7 /* CountriesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53069F7B20591B670058BDB7 /* CountriesViewController.storyboard */; };
 		53069F8D20591B670058BDB7 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53069F7D20591B670058BDB7 /* CountryCode.swift */; };
@@ -202,7 +201,7 @@
 				TargetAttributes = {
 					53069F0A205917ED0058BDB7 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -236,7 +235,6 @@
 				53069F72205918D30058BDB7 /* LaunchScreen.storyboard in Resources */,
 				53069F8B20591B670058BDB7 /* Countries.bundle in Resources */,
 				53069F8C20591B670058BDB7 /* CountriesViewController.storyboard in Resources */,
-				53069F75205918D30058BDB7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +401,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P744QFMZ3G;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -414,6 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NKVPhonePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,9 +423,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P744QFMZ3G;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -435,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NKVPhonePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
