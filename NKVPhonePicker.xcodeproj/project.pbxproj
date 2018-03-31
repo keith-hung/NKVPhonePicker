@@ -12,7 +12,6 @@
 		53069F72205918D30058BDB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53069F55205918D30058BDB7 /* LaunchScreen.storyboard */; };
 		53069F73205918D30058BDB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53069F57205918D30058BDB7 /* Main.storyboard */; };
 		53069F74205918D30058BDB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53069F59205918D30058BDB7 /* AppDelegate.swift */; };
-		53069F75205918D30058BDB7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53069F5A205918D30058BDB7 /* Info.plist */; };
 		53069F8B20591B670058BDB7 /* Countries.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 53069F7A20591B670058BDB7 /* Countries.bundle */; };
 		53069F8C20591B670058BDB7 /* CountriesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53069F7B20591B670058BDB7 /* CountriesViewController.storyboard */; };
 		53069F8D20591B670058BDB7 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53069F7D20591B670058BDB7 /* CountryCode.swift */; };
@@ -236,7 +235,6 @@
 				53069F72205918D30058BDB7 /* LaunchScreen.storyboard in Resources */,
 				53069F8B20591B670058BDB7 /* Countries.bundle in Resources */,
 				53069F8C20591B670058BDB7 /* CountriesViewController.storyboard in Resources */,
-				53069F75205918D30058BDB7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
